@@ -1,16 +1,16 @@
 # bot-telegram-php
- Bot de telegram que lleva las cuentas y devuelve la suma total segun las fechas especificadas
- Este Bot funciona para cualquier persona que lo quiera usar https://t.me/cuentashogar_bot
+ Telegram bot that keeps track of numerical values and returns the sum total according to specified dates
+ This Bot works for anyone who wants to use it https://t.me/cuentashogar_bot
  
- ## Como funciona:
+ ## How Works:
 
-* Este bot tiene 2 comandos:
+* this bot have 2 commands:
 
-1. /c <valor> EJEMPLO: /c 100
- Una vez se ingresa este valor queda registrado en la base de datos con tu chat_id (Puedes registrar tantos datos como desees)
- Cuando un usuario registra un valor automaticamente queda guardada la fecha.
+1. /c <valor> EXAMPLE: /c 100
+ Once this value is entered, it is registered in the database with your chat_id (You can register as much data as you want)
+ When a user registers a value, the date is automatically saved.
  
- 2. /sumar <fecha_inicio> <fecha_final> EJEMPLO: /sumar 2023-01-01 2023-12-31
-Es decir que el formato de las fechas es AAAA-MM-DD este comando realiza una busqueda en la base de datos y te devuelve la sumatoria de todos los valores en las fechas especificadas
+ 2. /sumar <fecha_inicio> <fecha_final> EXAMPLE: /sumar 2023-01-01 2023-12-31
+In other words, the date format is YYYY-MM-DD. This command performs a search in the database and returns the sum of all the values on the specified dates.
  
- ### A llevar las cuentas!!!!
+ ### Keeping track of the finances!!!
