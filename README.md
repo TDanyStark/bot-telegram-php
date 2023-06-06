@@ -2,9 +2,9 @@
  Bot de telegram que lleva las cuentas de los gastos y devuelve la suma total segun las fechas especificadas
  Este Bot funciona para cualquier persona que lo quiera usar https://t.me/cuentashogar_bot
  
- ##Como funciona:
+ ## Como funciona:
 
-*Este bot tiene 2 comandos:
+* Este bot tiene 2 comandos:
 
 1. /c <valor> EJEMPLO: /c 100
  Una vez se ingresa este valor queda registrado en la base de datos con tu chat_id (Puedes registrar tantos datos como desees)
