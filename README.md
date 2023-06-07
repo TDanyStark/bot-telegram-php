@@ -6,11 +6,14 @@
 
 * this bot have 2 commands:
 
-1. /c <valor> EXAMPLE: /c 100
+1. /c <valor> <description> EXAMPLE: /c 100 apple
  Once this value is entered, it is registered in the database with your chat_id (You can register as much data as you want)
  When a user registers a value, the date is automatically saved.
  
  2. /sumar <fecha_inicio> <fecha_final> EXAMPLE: /sumar 2023-01-01 2023-12-31
 In other words, the date format is YYYY-MM-DD. This command performs a search in the database and returns the sum of all the values on the specified dates.
+
+ /sumar <fecha_inicio> <fecha_final> d EXAMPLE: /sumar 2023-01-01 2023-12-31 d
+ If you add the letter d to the end of this command, it will return the description and value of each record.
  
  ### Keeping track of the finances!!!
